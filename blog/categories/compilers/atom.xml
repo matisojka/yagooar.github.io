@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[yagooar locus]]></title>
-  <link href="http://yagooar.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Compilers | yagooar locus]]></title>
+  <link href="http://yagooar.github.io/blog/categories/compilers/atom.xml" rel="self"/>
   <link href="http://yagooar.github.io/"/>
   <updated>2014-04-14T17:33:27+02:00</updated>
   <id>http://yagooar.github.io/</id>
@@ -18,8 +18,7 @@
     <link href="http://yagooar.github.io/b/what-is-a-compiler/"/>
     <updated>2014-04-13T22:43:06+02:00</updated>
     <id>http://yagooar.github.io/b/what-is-a-compiler</id>
-    <content type="html"><![CDATA[<blockquote><p>Much of my work has come from being lazy.</p><footer><strong>John Backus</strong> <cite>Creator of Fortran</cite></footer></blockquote>
-
+    <content type="html"><![CDATA[<p><blockquote><p>Much of my work has come from being lazy.</p><footer><strong>John Backus</strong> <cite>Creator of Fortran</cite></footer></blockquote></p>
 
 <h3>A compiler is a translator.</h3>
 
@@ -39,17 +38,9 @@ byte code.</p>
 <p>In order to answer that question, we have to go back in history. Back in the
 50s, programming was quite different than now. Resources were limited and
  software costs passed those of hardware. Scientists and engineers began to
-worry about reducing programmers&#8217; productivity in order to cut those huge costs.</p>
+worry about reducing programmers' productivity in order to cut those huge costs.</p>
 
-<p><span class='pullquote-right' data-pullquote='translating the source code &#8220;on the fly&#8221; came at a huge cost of memory and
-execution speed'>
-At this point, the name of John Backus became popular because he was the creator
-of the first high-level programming language for an IBM computer, called
-&ldquo;Speedcoding&rdquo;. While the language itself improved programmers&#8217; productivity,
-translating the source code &ldquo;on the fly&rdquo; came at a huge cost of memory and
-execution speed. With this approach, Backus created an interpreter, which I am
-going to cover in another article.
-</span></p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
 <p>Soon enough, Backus realized that what would greatly improve speed of execution
 and reduce memory consumption would be a program that would <em>translate</em> a
@@ -74,7 +65,7 @@ compilers do their job. Let&rsquo;s change that.</p>
 
 <p>Take a look at the following graph:</p>
 
-<p><img src="http://yagooar.github.io/images/posts/compiler.svg"></p>
+<p><img src="/images/posts/compiler.svg"></p>
 
 <p>What we see here is that first of all, the compiler takes care of the
 translation of the source code into a target code. After that, we just take the
