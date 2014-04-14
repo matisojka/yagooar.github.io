@@ -4,7 +4,6 @@ title: "What is a compiler?"
 date: 2014-04-13 22:43:06 +0200
 comments: true
 categories: compilers
-published: false
 ---
 
 {% blockquote John Backus, Creator of Fortran %}
